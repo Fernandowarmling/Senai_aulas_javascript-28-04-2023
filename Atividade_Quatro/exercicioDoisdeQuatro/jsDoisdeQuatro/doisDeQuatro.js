@@ -3,7 +3,7 @@ var gerandoTabelaDeProdutos = (produtos) => {
         return`
         <tr>
         <td>${produto.descricao}</td>
-        <td>${(produto.preco).toFixed(2)}</td>
+        <td>R$${(produto.preco).toFixed(2)}</td>
         </tr>
         `;
     });
