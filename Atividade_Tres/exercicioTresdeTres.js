@@ -11,4 +11,4 @@ let produtos = [{
 }
 ]
 
-console.log(produtos)
+console.log(produtos)   

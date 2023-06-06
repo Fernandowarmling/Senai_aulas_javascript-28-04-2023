@@ -1,0 +1,18 @@
+let geraListaProdutos = (produtos) =>{ return produtos.map((produto)=>`Produto: ${produto.descricaoProduto} R$${(produto.precoProduto).toFixed(2)}`).join('\n')
+ 
+}
+
+let produtos = [{
+    descricaoProduto: "Skol",
+    precoProduto: 1.9999
+}, {
+    descricaoProduto: "Bhrama",
+    precoProduto: 2.5555
+},{descricaoProduto: "Heiniken",
+precoProduto: 3.9955
+
+}]
+
+let listaProdutos = geraListaProdutos(produtos)
+
+console.log(listaProdutos)
